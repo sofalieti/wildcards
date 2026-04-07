@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WB Expert — Продвижение на Wildberries</title>
+  <meta name="description" content="Профессиональное продвижение карточек товаров на Wildberries. SEO-оптимизация, дизайн, аналитика и реклама для роста ваших продаж." />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav class="navbar navbar-expand-lg navbar-dark wb-navbar fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+      <div class="brand-icon">
+        <i class="bi bi-bag-heart-fill"></i>
+      </div>
+      <span class="brand-text">WB<span class="brand-accent">Expert</span></span>
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="#services">Услуги</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">О нас</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Портфолио</a></li>
+        <li class="nav-item"><a class="nav-link" href="#cases">Кейсы</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pricing">Тарифы</a></li>
+        <li class="nav-item"><a class="nav-link" href="#reviews">Отзывы</a></li>
+        <li class="nav-item ms-lg-3">
+          <a class="btn btn-wb-primary btn-sm px-4" href="#contact">Получить КП</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero-section" id="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-particles" id="particles"></div>
+  <div class="container hero-container">
+    <div class="row align-items-center min-vh-100 py-5">
+      <!-- Left: Headline -->
+      <div class="col-lg-6 hero-content" data-aos="fade-right" data-aos-duration="900">
+        <div class="hero-badge mb-4">
+          <i class="bi bi-lightning-charge-fill me-2"></i>
+          #1 агентство по работе с Wildberries
+        </div>
+        <h1 class="hero-title">
+          Увеличим ваши<br />
+          <span class="gradient-text">продажи на WB</span><br />
+          в 3–10 раз
+        </h1>
+        <p class="hero-subtitle mt-4">
+          Профессиональная оптимизация карточек товаров, SEO, дизайн инфографики и рекламные кампании. Работаем с результатом — платите за рост.
+        </p>
+        <div class="hero-stats d-flex flex-wrap gap-4 mt-5">
+          <div class="hero-stat">
+            <span class="hero-stat-num" data-count="500">0</span><span class="hero-stat-num">+</span>
+            <span class="hero-stat-label">карточек в работе</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num" data-count="340">0</span><span class="hero-stat-num">%</span>
+            <span class="hero-stat-label">средний рост продаж</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="hero-stat-num" data-count="5">0</span><span class="hero-stat-num"> лет</span>
+            <span class="hero-stat-label">на рынке</span>
+          </div>
+        </div>
+        <div class="d-flex flex-wrap gap-3 mt-5">
+          <a href="#contact" class="btn btn-wb-primary btn-lg px-5">
+            Получить бесплатный аудит
+            <i class="bi bi-arrow-right ms-2"></i>
+          </a>
+          <a href="#cases" class="btn btn-wb-outline btn-lg px-4">
+            <i class="bi bi-play-circle me-2"></i>Смотреть кейсы
+          </a>
+        </div>
+      </div>
+
+      <!-- Right: Contact Form -->
+      <div class="col-lg-5 offset-lg-1 mt-5 mt-lg-0" data-aos="fade-left" data-aos-duration="900" data-aos-delay="200">
+        <div class="hero-form-card">
+          <div class="hero-form-header">
+            <h3>Бесплатная консультация</h3>
+            <p>Разберём ваши карточки и найдём точки роста</p>
+          </div>
+          <form id="heroForm" class="hero-form" novalidate>
+            <div class="mb-3">
+              <label class="form-label">Ваше имя</label>
+              <input type="text" class="form-control wb-input" placeholder="Александр" required />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Телефон / Telegram</label>
+              <input type="text" class="form-control wb-input" placeholder="+7 (999) 000-00-00" required />
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Ссылка на магазин WB</label>
+              <input type="url" class="form-control wb-input" placeholder="https://wildberries.ru/seller/..." />
+            </div>
+            <div class="mb-4">
+              <label class="form-label">Текущая выручка в месяц</label>
+              <select class="form-select wb-input">
+                <option value="">Выберите диапазон</option>
+                <option>До 100 000 ₽</option>
+                <option>100 000 – 500 000 ₽</option>
+                <option>500 000 – 2 000 000 ₽</option>
+                <option>Более 2 000 000 ₽</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-wb-primary w-100 btn-lg">
+              <i class="bi bi-send me-2"></i>Получить аудит бесплатно
+            </button>
+            <p class="form-disclaimer mt-3 text-center">
+              <i class="bi bi-shield-check me-1"></i>
+              Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Scroll indicator -->
+  <div class="scroll-indicator">
+    <div class="scroll-dot"></div>
+  </div>
+</section>
+
+<!-- ===================== TRUST BAR ===================== -->
+<section class="trust-bar py-4">
+  <div class="container">
+    <div class="row align-items-center text-center g-4">
+      <div class="col-6 col-md-3">
+        <div class="trust-item">
+          <i class="bi bi-award-fill"></i>
+          <span>Топ-10 агентств WB 2024</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="trust-item">
+          <i class="bi bi-star-fill"></i>
+          <span>4.9 рейтинг на Яндекс</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="trust-item">
+          <i class="bi bi-people-fill"></i>
+          <span>200+ довольных клиентов</span>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="trust-item">
+          <i class="bi bi-graph-up-arrow"></i>
+          <span>Гарантия результата 30 дней</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section class="section-padding bg-light-wb" id="services">
+  <div class="container">
+    <div class="section-header text-center mb-5" data-aos="fade-up">
+      <span class="section-tag">Что мы делаем</span>
+      <h2 class="section-title">Полный цикл работы<br />с вашими карточками</h2>
+      <p class="section-subtitle">От аудита до топ-позиций — берём на себя всё</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <i class="bi bi-search service-icon"></i>
+          </div>
+          <h4>SEO-оптимизация</h4>
+          <p>Вывод в топ по ключевым запросам. Семантическое ядро, оптимизация заголовков и описаний для максимальной видимости.</p>
+          <ul class="service-list">
+            <li><i class="bi bi-check2"></i> Анализ конкурентов</li>
+            <li><i class="bi bi-check2"></i> Кластеризация запросов</li>
+            <li><i class="bi bi-check2"></i> Отчёт по позициям</li>
+          </ul>
+          <a href="#contact" class="service-link">Подробнее <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-card service-card--featured">
+          <div class="service-badge">Популярно</div>
+          <div class="service-icon-wrap">
+            <i class="bi bi-image service-icon"></i>
+          </div>
+          <h4>Дизайн инфографики</h4>
+          <p>Продающие слайды и инфографика, которые объясняют ценность продукта и повышают конверсию в корзину.</p>
+          <ul class="service-list">
+            <li><i class="bi bi-check2"></i> До 8 слайдов в карточке</li>
+            <li><i class="bi bi-check2"></i> Rich-контент</li>
+            <li><i class="bi bi-check2"></i> A/B тестирование</li>
+          </ul>
+          <a href="#contact" class="service-link">Подробнее <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <i class="bi bi-camera service-icon"></i>
+          </div>
+          <h4>Предметная съёмка</h4>
+          <p>Профессиональные фото и видео товаров в студии. Лайфстайл, 360°, видеобэкграунды для карточек.</p>
+          <ul class="service-list">
+            <li><i class="bi bi-check2"></i> Выезд или доставка</li>
+            <li><i class="bi bi-check2"></i> Ретушь включена</li>
+            <li><i class="bi bi-check2"></i> Видео до 30 сек</li>
+          </ul>
+          <a href="#contact" class="service-link">Подробнее <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <i class="bi bi-bar-chart-line service-icon"></i>
+          </div>
+          <h4>Аналитика и отчёты</h4>
+          <p>Детальный мониторинг продаж, позиций, CTR и конверсий. Еженедельные отчёты и рекомендации.</p>
+          <ul class="service-list">
+            <li><i class="bi bi-check2"></i> MPStats / Moneyplace</li>
+            <li><i class="bi bi-check2"></i> Дашборды онлайн</li>
+            <li><i class="bi bi-check2"></i> Прогноз продаж</li>
+          </ul>
+          <a href="#contact" class="service-link">Подробнее <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <i class="bi bi-megaphone service-icon"></i>
+          </div>
+          <h4>Реклама WB Ads</h4>
+          <p>Настройка и ведение рекламных кампаний внутри маркетплейса. Снижаем ДРР и увеличиваем охват.</p>
+          <ul class="service-list">
+            <li><i class="bi bi-check2"></i> Авто и ручные ставки</li>
+            <li><i class="bi bi-check2"></i> Аудит бесплатно</li>
+            <li><i class="bi bi-check2"></i> ДРР от 8%</li>
+          </ul>
+          <a href="#contact" class="service-link">Подробнее <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-card">
+          <div class="service-icon-wrap">
+            <i class="bi bi-gear service-icon"></i>
+          </div>
+          <h4>Полное управление</h4>
+          <p>Отдайте магазин под ключ. Закупки, логистика, остатки, реклама — всё ведём мы. Вы только получаете прибыль.</p>
+          <ul class="service-list">
+            <li><i class="bi bi-check2"></i> Менеджер 24/7</li>
+            <li><i class="bi bi-check2"></i> Управление FBO/FBS</li>
+            <li><i class="bi bi-check2"></i> Юридическое сопровождение</li>
+          </ul>
+          <a href="#contact" class="service-link">Подробнее <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="section-padding" id="about">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6" data-aos="fade-right">
+        <span class="section-tag">О компании</span>
+        <h2 class="section-title mt-2">Мы помогаем продавцам<br />выигрывать на WB</h2>
+        <p class="mt-4 text-muted-custom">
+          С 2019 года мы специализируемся исключительно на Wildberries. За это время прокачали более 200 магазинов и вывели сотни карточек в топ-5 своих категорий.
+        </p>
+        <p class="text-muted-custom">
+          Наша команда — бывшие байеры WB, дизайнеры с опытом в eCommerce, и аналитики данных. Мы знаем алгоритм платформы изнутри.
+        </p>
+        <div class="row g-4 mt-2">
+          <div class="col-6">
+            <div class="about-stat-card" data-aos="zoom-in" data-aos-delay="100">
+              <span class="about-stat-num counter" data-count="200">0</span><span class="about-stat-num">+</span>
+              <span class="about-stat-label">клиентов</span>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="about-stat-card" data-aos="zoom-in" data-aos-delay="200">
+              <span class="about-stat-num counter" data-count="1500">0</span><span class="about-stat-num">+</span>
+              <span class="about-stat-label">карточек оптимизировано</span>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="about-stat-card" data-aos="zoom-in" data-aos-delay="300">
+              <span class="about-stat-num counter" data-count="5">0</span><span class="about-stat-num"> лет</span>
+              <span class="about-stat-label">на рынке</span>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="about-stat-card" data-aos="zoom-in" data-aos-delay="400">
+              <span class="about-stat-num counter" data-count="98">0</span><span class="about-stat-num">%</span>
+              <span class="about-stat-label">клиентов довольны</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+        <div class="about-image-wrap">
+          <img src="img/team.jpg" alt="Команда WB Expert" class="img-fluid rounded-4 shadow-wb" />
+          <div class="about-float-badge">
+            <i class="bi bi-trophy-fill"></i>
+            <div>
+              <strong>Топ-10</strong>
+              <span>агентств WB 2024</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PORTFOLIO ===================== -->
+<section class="section-padding bg-dark-wb" id="portfolio">
+  <div class="container">
+    <div class="section-header text-center mb-5" data-aos="fade-up">
+      <span class="section-tag section-tag--light">Наши работы</span>
+      <h2 class="section-title text-white">Портфолио: до и после</h2>
+      <p class="section-subtitle text-white-50">Посмотрите, как мы трансформируем карточки и поднимаем продажи</p>
+    </div>
+
+    <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up" data-aos-delay="200">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="portfolio-slide">
+            <div class="row align-items-center g-4">
+              <div class="col-lg-8">
+                <div class="portfolio-image-wrap">
+                  <img src="img/portfolio-1.jpg" class="img-fluid rounded-4" alt="Кейс: Спортивная бутылка" />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="portfolio-meta">
+                  <span class="portfolio-tag">Спорт и фитнес</span>
+                  <h3 class="text-white mt-3">Спортивная бутылка</h3>
+                  <p class="text-white-50">Оптимизация SEO, инфографика и профессиональная съёмка</p>
+                  <div class="portfolio-results mt-4">
+                    <div class="portfolio-result-item">
+                      <span class="result-num text-wb-accent">+482</span>
+                      <span class="result-label text-white-50">отзывов за 3 мес</span>
+                    </div>
+                    <div class="portfolio-result-item">
+                      <span class="result-num text-wb-accent">×4.5</span>
+                      <span class="result-label text-white-50">рост продаж</span>
+                    </div>
+                    <div class="portfolio-result-item">
+                      <span class="result-num text-wb-accent">ТОП-3</span>
+                      <span class="result-label text-white-50">в категории</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="portfolio-slide">
+            <div class="row align-items-center g-4">
+              <div class="col-lg-8">
+                <div class="portfolio-image-wrap">
+                  <img src="img/portfolio-2.jpg" class="img-fluid rounded-4" alt="Кейс: Женская сумка" />
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="portfolio-meta">
+                  <span class="portfolio-tag">Аксессуары</span>
+                  <h3 class="text-white mt-3">Женская сумка</h3>
+                  <p class="text-white-50">Полный редизайн карточки, SEO и запуск рекламы WB Ads</p>
+                  <div class="portfolio-results mt-4">
+                    <div class="portfolio-result-item">
+                      <span class="result-num text-wb-accent">+340%</span>
+                      <span class="result-label text-white-50">выручки за месяц</span>
+                    </div>
+                    <div class="portfolio-result-item">
+                      <span class="result-num text-wb-accent">4.9★</span>
+                      <span class="result-label text-white-50">рейтинг карточки</span>
+                    </div>
+                    <div class="portfolio-result-item">
+                      <span class="result-num text-wb-accent">ТОП-1</span>
+                      <span class="result-label text-white-50">в категории</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-controls d-flex justify-content-center gap-3 mt-4">
+        <button class="carousel-btn" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+          <i class="bi bi-arrow-left"></i>
+        </button>
+        <div class="carousel-indicators-custom d-flex align-items-center gap-2">
+          <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="cind active"></button>
+          <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1" class="cind"></button>
+        </div>
+        <button class="carousel-btn" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+          <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CASES ===================== -->
+<section class="section-padding" id="cases">
+  <div class="container">
+    <div class="section-header text-center mb-5" data-aos="fade-up">
+      <span class="section-tag">Результаты клиентов</span>
+      <h2 class="section-title">Кейсы с реальными цифрами</h2>
+      <p class="section-subtitle">Не обещания — только измеримые результаты</p>
+    </div>
+    <div class="row g-4">
+      <!-- Case 1 -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="0">
+        <div class="case-card">
+          <div class="case-image-wrap">
+            <img src="img/case-study.jpg" class="img-fluid" alt="Кейс 1" />
+            <div class="case-category-badge">Косметика</div>
+          </div>
+          <div class="case-body">
+            <h4>Beauty-бренд «Сияй»</h4>
+            <p>Нишевый бренд натуральной косметики с нулевой видимостью в поиске. За 3 месяца вывели в топ-5 по 47 ключевым запросам.</p>
+            <div class="case-metrics">
+              <div class="case-metric">
+                <span class="metric-val">+340%</span>
+                <span class="metric-key">выручки</span>
+              </div>
+              <div class="case-metric">
+                <span class="metric-val">×8</span>
+                <span class="metric-key">заказов</span>
+              </div>
+              <div class="case-metric">
+                <span class="metric-val">3 мес</span>
+                <span class="metric-key">срок</span>
+              </div>
+            </div>
+            <a href="#contact" class="btn btn-wb-outline-sm mt-3">Обсудить похожую задачу</a>
+          </div>
+        </div>
+      </div>
+      <!-- Case 2 -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="150">
+        <div class="case-card">
+          <div class="case-image-wrap">
+            <img src="img/portfolio-1.jpg" class="img-fluid" alt="Кейс 2" />
+            <div class="case-category-badge">Спорт</div>
+          </div>
+          <div class="case-body">
+            <h4>SportGear — спортинвентарь</h4>
+            <p>Крупный продавец спортивного инвентаря. Переупаковали 120 карточек, запустили WB Ads и снизили ДРР с 32% до 9%.</p>
+            <div class="case-metrics">
+              <div class="case-metric">
+                <span class="metric-val">+180%</span>
+                <span class="metric-key">трафика</span>
+              </div>
+              <div class="case-metric">
+                <span class="metric-val">ДРР 9%</span>
+                <span class="metric-key">vs 32% до</span>
+              </div>
+              <div class="case-metric">
+                <span class="metric-val">2 мес</span>
+                <span class="metric-key">срок</span>
+              </div>
+            </div>
+            <a href="#contact" class="btn btn-wb-outline-sm mt-3">Обсудить похожую задачу</a>
+          </div>
+        </div>
+      </div>
+      <!-- Case 3 -->
+      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+        <div class="case-card">
+          <div class="case-image-wrap">
+            <img src="img/portfolio-2.jpg" class="img-fluid" alt="Кейс 3" />
+            <div class="case-category-badge">Аксессуары</div>
+          </div>
+          <div class="case-body">
+            <h4>ModaBag — сумки и кошельки</h4>
+            <p>Маленький продавец с 10 позициями. После редизайна всех карточек и SEO вышли на выручку 1.2 млн ₽/месяц.</p>
+            <div class="case-metrics">
+              <div class="case-metric">
+                <span class="metric-val">1.2 млн</span>
+                <span class="metric-key">выручки/мес</span>
+              </div>
+              <div class="case-metric">
+                <span class="metric-val">ТОП-3</span>
+                <span class="metric-key">категория</span>
+              </div>
+              <div class="case-metric">
+                <span class="metric-val">4 мес</span>
+                <span class="metric-key">срок</span>
+              </div>
+            </div>
+            <a href="#contact" class="btn btn-wb-outline-sm mt-3">Обсудить похожую задачу</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="text-center mt-5" data-aos="fade-up">
+      <a href="#contact" class="btn btn-wb-primary btn-lg px-5">
+        Хочу таких же результатов
+        <i class="bi bi-arrow-right ms-2"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PRICING ===================== -->
+<section class="section-padding bg-light-wb" id="pricing">
+  <div class="container">
+    <div class="section-header text-center mb-5" data-aos="fade-up">
+      <span class="section-tag">Тарифы</span>
+      <h2 class="section-title">Прозрачные цены<br />без скрытых доплат</h2>
+      <p class="section-subtitle">Выберите подходящий формат сотрудничества</p>
+    </div>
+    <div class="row g-4 justify-content-center">
+      <!-- Starter -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <div class="pricing-icon"><i class="bi bi-rocket"></i></div>
+            <h4>Старт</h4>
+            <p>Для начинающих продавцов</p>
+          </div>
+          <div class="pricing-price">
+            <span class="price-currency">от</span>
+            <span class="price-amount">15 000</span>
+            <span class="price-period">₽/мес</span>
+          </div>
+          <ul class="pricing-features">
+            <li><i class="bi bi-check-circle-fill"></i> До 5 карточек</li>
+            <li><i class="bi bi-check-circle-fill"></i> SEO-оптимизация</li>
+            <li><i class="bi bi-check-circle-fill"></i> Дизайн 3 слайдов</li>
+            <li><i class="bi bi-check-circle-fill"></i> Еженедельный отчёт</li>
+            <li class="text-muted-custom"><i class="bi bi-x-circle"></i> Ведение рекламы</li>
+            <li class="text-muted-custom"><i class="bi bi-x-circle"></i> Аналитик в команде</li>
+            <li class="text-muted-custom"><i class="bi bi-x-circle"></i> Приоритетная поддержка</li>
+          </ul>
+          <a href="#contact" class="btn btn-wb-outline w-100 mt-4">Начать</a>
+        </div>
+      </div>
+      <!-- Pro -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+        <div class="pricing-card pricing-card--featured">
+          <div class="pricing-popular">Лучший выбор</div>
+          <div class="pricing-header">
+            <div class="pricing-icon"><i class="bi bi-lightning-charge"></i></div>
+            <h4>Профи</h4>
+            <p>Для растущих продавцов</p>
+          </div>
+          <div class="pricing-price">
+            <span class="price-currency">от</span>
+            <span class="price-amount">45 000</span>
+            <span class="price-period">₽/мес</span>
+          </div>
+          <ul class="pricing-features">
+            <li><i class="bi bi-check-circle-fill"></i> До 25 карточек</li>
+            <li><i class="bi bi-check-circle-fill"></i> Полное SEO + ключи</li>
+            <li><i class="bi bi-check-circle-fill"></i> Дизайн 6 слайдов</li>
+            <li><i class="bi bi-check-circle-fill"></i> Ведение WB Ads</li>
+            <li><i class="bi bi-check-circle-fill"></i> Аналитик в команде</li>
+            <li><i class="bi bi-check-circle-fill"></i> Ежедневный мониторинг</li>
+            <li class="text-muted-custom"><i class="bi bi-x-circle"></i> Управление FBO/FBS</li>
+          </ul>
+          <a href="#contact" class="btn btn-wb-primary w-100 mt-4">Выбрать тариф</a>
+        </div>
+      </div>
+      <!-- Business -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <div class="pricing-icon"><i class="bi bi-buildings"></i></div>
+            <h4>Бизнес</h4>
+            <p>Для крупных магазинов</p>
+          </div>
+          <div class="pricing-price">
+            <span class="price-currency">от</span>
+            <span class="price-amount">90 000</span>
+            <span class="price-period">₽/мес</span>
+          </div>
+          <ul class="pricing-features">
+            <li><i class="bi bi-check-circle-fill"></i> Неограниченно карточек</li>
+            <li><i class="bi bi-check-circle-fill"></i> Весь пакет услуг</li>
+            <li><i class="bi bi-check-circle-fill"></i> Инфографика + фото</li>
+            <li><i class="bi bi-check-circle-fill"></i> Управление FBO/FBS</li>
+            <li><i class="bi bi-check-circle-fill"></i> Персональный менеджер</li>
+            <li><i class="bi bi-check-circle-fill"></i> Приоритетная поддержка 24/7</li>
+            <li><i class="bi bi-check-circle-fill"></i> Юридическое сопровождение</li>
+          </ul>
+          <a href="#contact" class="btn btn-wb-outline w-100 mt-4">Получить КП</a>
+        </div>
+      </div>
+    </div>
+    <div class="pricing-note text-center mt-4" data-aos="fade-up">
+      <i class="bi bi-info-circle me-2"></i>
+      Все тарифы включают бесплатный аудит текущих карточек. Индивидуальные условия — по запросу.
+    </div>
+  </div>
+</section>
+
+<!-- ===================== REVIEWS ===================== -->
+<section class="section-padding" id="reviews">
+  <div class="container">
+    <div class="section-header text-center mb-5" data-aos="fade-up">
+      <span class="section-tag">Отзывы</span>
+      <h2 class="section-title">Что говорят клиенты</h2>
+    </div>
+    <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel" data-aos="fade-up" data-aos-delay="200">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"За два месяца работы с командой наши продажи выросли в 4 раза. Сделали потрясающую инфографику и SEO. Теперь мы в топ-3 категории «Спортивное питание»."</p>
+                <div class="review-author">
+                  <div class="review-avatar">МК</div>
+                  <div>
+                    <strong>Максим Кириллов</strong>
+                    <span>SportNutrition, Москва</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"Обратилась после того как сама попробовала продвигаться — ничего не получалось. Ребята полностью переделали карточки, и уже в первый месяц я вышла на прибыль."</p>
+                <div class="review-author">
+                  <div class="review-avatar">АС</div>
+                  <div>
+                    <strong>Анна Смирнова</strong>
+                    <span>Косметика, Казань</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"Отличная команда! Очень профессиональный подход к делу. Помогли нам с 30 карточками, и ДРР по рекламе снизился с 28% до 7%. Рекомендую всем!"</p>
+                <div class="review-author">
+                  <div class="review-avatar">ДВ</div>
+                  <div>
+                    <strong>Дмитрий Волков</strong>
+                    <span>Электроника, СПб</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="review-card">
+                <div class="review-stars">★★★★☆</div>
+                <p class="review-text">"Работаем уже полгода на тарифе «Профи». Стабильный рост, подробная отчётность каждую неделю. Менеджер всегда на связи и оперативно решает вопросы."</p>
+                <div class="review-author">
+                  <div class="review-avatar">ОП</div>
+                  <div>
+                    <strong>Ольга Петрова</strong>
+                    <span>Детские товары, Новосибирск</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-controls d-flex justify-content-center gap-3 mt-4">
+        <button class="carousel-btn" data-bs-target="#reviewsCarousel" data-bs-slide="prev">
+          <i class="bi bi-arrow-left"></i>
+        </button>
+        <div class="carousel-indicators-custom d-flex align-items-center gap-2">
+          <button type="button" data-bs-target="#reviewsCarousel" data-bs-slide-to="0" class="cind active"></button>
+          <button type="button" data-bs-target="#reviewsCarousel" data-bs-slide-to="1" class="cind"></button>
+        </div>
+        <button class="carousel-btn" data-bs-target="#reviewsCarousel" data-bs-slide="next">
+          <i class="bi bi-arrow-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FAQ ===================== -->
+<section class="section-padding bg-light-wb" id="faq">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-header text-center mb-5" data-aos="fade-up">
+          <span class="section-tag">FAQ</span>
+          <h2 class="section-title">Частые вопросы</h2>
+        </div>
+        <div class="accordion wb-accordion" id="faqAccordion" data-aos="fade-up" data-aos-delay="100">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                Сколько времени занимает оптимизация одной карточки?
+              </button>
+            </h2>
+            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                SEO-оптимизация и переработка текстов занимает 2–3 рабочих дня. Если требуется дизайн инфографики — ещё 3–5 дней. Полная переупаковка карточки «под ключ» — 7–10 рабочих дней.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                Нужно ли давать доступ к личному кабинету WB?
+              </button>
+            </h2>
+            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Для SEO и дизайна — нет, работаем через API или без доступа. Для ведения рекламы и полного управления — нужен доступ с ограниченными правами. Все данные под NDA.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                Гарантируете ли вы результат?
+              </button>
+            </h2>
+            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Мы даём гарантию роста трафика на карточки в течение 30 дней. Если результата нет — продлеваем работу бесплатно до достижения KPI. Конкретные цифры фиксируются в договоре.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                Работаете ли вы с новыми продавцами?
+              </button>
+            </h2>
+            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Да! Более 40% наших клиентов — новые продавцы. Мы помогаем с нуля: от регистрации и выбора ниши до первых продаж и масштабирования. Для новичков есть специальный стартовый пакет.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                Как проходит оплата?
+              </button>
+            </h2>
+            <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+              <div class="accordion-body">
+                Работаем по договору с физлицами и юрлицами (ИП, ООО). Принимаем оплату на расчётный счёт, картой или через СБП. Возможна рассрочка на 2 месяца при выборе тарифа «Профи» и «Бизнес».
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="section-padding contact-section" id="contact">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5" data-aos="fade-right">
+        <span class="section-tag section-tag--light">Связаться с нами</span>
+        <h2 class="section-title text-white mt-3">Готовы расти?<br />Напишите нам</h2>
+        <p class="text-white-50 mt-4">Расскажите о вашем магазине — мы проведём бесплатный аудит и предложим конкретный план роста.</p>
+        <div class="contact-info mt-5">
+          <div class="contact-info-item">
+            <i class="bi bi-telephone-fill"></i>
+            <div>
+              <span>Телефон</span>
+              <a href="tel:+74951234567">+7 (495) 123-45-67</a>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <i class="bi bi-telegram"></i>
+            <div>
+              <span>Telegram</span>
+              <a href="https://t.me/wbexpert">@wbexpert</a>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <i class="bi bi-envelope-fill"></i>
+            <div>
+              <span>Email</span>
+              <a href="mailto:info@wbexpert.ru">info@wbexpert.ru</a>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <i class="bi bi-clock-fill"></i>
+            <div>
+              <span>Режим работы</span>
+              <span>Пн–Пт: 9:00–20:00 МСК</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 offset-lg-1" data-aos="fade-left" data-aos-delay="200">
+        <div class="contact-form-card">
+          <h3>Оставьте заявку</h3>
+          <p class="text-muted-custom mb-4">Ответим в течение 15 минут в рабочее время</p>
+          <form id="contactForm" novalidate>
+            <div class="row g-3">
+              <div class="col-sm-6">
+                <label class="form-label">Имя *</label>
+                <input type="text" class="form-control wb-input" placeholder="Ваше имя" required />
+              </div>
+              <div class="col-sm-6">
+                <label class="form-label">Телефон *</label>
+                <input type="tel" class="form-control wb-input" placeholder="+7 (999) 000-00-00" required />
+              </div>
+              <div class="col-12">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control wb-input" placeholder="you@email.com" />
+              </div>
+              <div class="col-12">
+                <label class="form-label">Расскажите о задаче</label>
+                <textarea class="form-control wb-input" rows="4" placeholder="Что нужно сделать? Сколько карточек? Текущая выручка?"></textarea>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-wb-primary w-100 btn-lg">
+                  Отправить заявку
+                  <i class="bi bi-send ms-2"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="row g-5 py-5">
+      <div class="col-lg-4">
+        <a class="d-flex align-items-center gap-2 text-decoration-none mb-4" href="#">
+          <div class="brand-icon"><i class="bi bi-bag-heart-fill"></i></div>
+          <span class="brand-text text-white">WB<span class="brand-accent">Expert</span></span>
+        </a>
+        <p class="text-white-50">Профессиональное агентство по продвижению товаров на Wildberries. Работаем с результатом с 2019 года.</p>
+        <div class="footer-socials mt-4">
+          <a href="#" class="social-btn" aria-label="Telegram"><i class="bi bi-telegram"></i></a>
+          <a href="#" class="social-btn" aria-label="VK"><i class="bi bi-vk"></i></a>
+          <a href="#" class="social-btn" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          <a href="#" class="social-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-2">
+        <h6 class="footer-heading">Услуги</h6>
+        <ul class="footer-links">
+          <li><a href="#services">SEO карточек</a></li>
+          <li><a href="#services">Инфографика</a></li>
+          <li><a href="#services">Съёмка</a></li>
+          <li><a href="#services">WB Реклама</a></li>
+          <li><a href="#services">Аналитика</a></li>
+          <li><a href="#services">Управление</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-lg-2">
+        <h6 class="footer-heading">Компания</h6>
+        <ul class="footer-links">
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#cases">Кейсы</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#reviews">Отзывы</a></li>
+          <li><a href="#pricing">Цены</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h6 class="footer-heading">Подпишитесь на новости</h6>
+        <p class="text-white-50 small">Советы по WB, изменения алгоритмов и лайфхаки каждую неделю</p>
+        <div class="footer-subscribe mt-3">
+          <input type="email" class="form-control wb-input-dark" placeholder="Ваш email" />
+          <button class="btn btn-wb-primary">
+            <i class="bi bi-send"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="row align-items-center g-3">
+        <div class="col-md-6">
+          <p class="text-white-50 small mb-0">© 2024 WBExpert. Все права защищены.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href="#" class="text-white-50 small me-4 text-decoration-none">Политика конфиденциальности</a>
+          <a href="#" class="text-white-50 small text-decoration-none">Договор оферты</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-to-top" id="backToTop" aria-label="Наверх">
+  <i class="bi bi-arrow-up"></i>
+</button>
+
+<!-- Toast notification -->
+<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 9999">
+  <div id="formToast" class="toast align-items-center text-white border-0" role="alert">
+    <div class="d-flex">
+      <div class="toast-body">
+        <i class="bi bi-check-circle-fill me-2"></i>
+        Заявка отправлена! Свяжемся с вами в течение 15 минут.
+      </div>
+      <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<!-- Custom JS -->
+<script src="js/main.js"></script>
+</body>
+</html>

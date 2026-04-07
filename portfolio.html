@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Портфолио — WB Expert | Карточки товаров Wildberries</title>
+  <meta name="description" content="Портфолио WB Expert: примеры оптимизации карточек товаров на Wildberries. Фото до и после, инфографика, съёмка с моделями." />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <!-- Shared CSS -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- Portfolio page CSS -->
+  <link href="css/portfolio.css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ===================== NAVBAR ===================== -->
+<nav class="navbar navbar-expand-lg navbar-dark wb-navbar fixed-top scrolled" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+      <div class="brand-icon"><i class="bi bi-bag-heart-fill"></i></div>
+      <span class="brand-text">WB<span class="brand-accent">Expert</span></span>
+    </a>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-1">
+        <li class="nav-item"><a class="nav-link" href="index.html#services">Услуги</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#about">О нас</a></li>
+        <li class="nav-item"><a class="nav-link active" href="portfolio.html">Портфолио</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#cases">Кейсы</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#pricing">Тарифы</a></li>
+        <li class="nav-item ms-lg-3">
+          <a class="btn btn-wb-primary btn-sm px-4" href="index.html#contact">Получить КП</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ===================== PAGE HERO ===================== -->
+<section class="pf-page-hero">
+  <div class="pf-page-hero-overlay"></div>
+  <div class="container position-relative" style="z-index:2;">
+    <div class="row justify-content-center text-center py-5">
+      <div class="col-lg-8" data-aos="fade-up">
+        <nav aria-label="breadcrumb" class="mb-4">
+          <ol class="breadcrumb justify-content-center pf-breadcrumb">
+            <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+            <li class="breadcrumb-item active">Портфолио</li>
+          </ol>
+        </nav>
+        <h1 class="pf-page-title">Наши работы</h1>
+        <p class="pf-page-subtitle">Реальные примеры трансформации карточек товаров — от любительского фото до продающих материалов WB-уровня</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== AI BLOCK ===================== -->
+<section class="pf-ai-block">
+  <div class="container">
+    <div class="pf-ai-card" data-aos="fade-up">
+      <div class="row align-items-center g-5">
+
+        <!-- Left: Text -->
+        <div class="col-lg-7">
+          <div class="pf-ai-badge">
+            <i class="bi bi-cpu-fill me-2"></i>
+            Технология
+          </div>
+          <h2 class="pf-ai-title mt-3">
+            Вы уже заметили, что мы<br />
+            используем <span class="gradient-text">ИИ?</span>
+          </h2>
+          <p class="pf-ai-lead mt-4">
+            Да, всё верно — мы намеренно автоматизировали большую часть работы с помощью искусственного интеллекта. Но каждый результат перед отправкой клиенту проходит <strong>обязательную ручную модерацию</strong> опытного специалиста.
+          </p>
+
+          <div class="pf-ai-benefits mt-5">
+            <div class="pf-ai-benefit" data-aos="fade-right" data-aos-delay="100">
+              <div class="pf-ai-benefit-icon">
+                <i class="bi bi-lightning-charge-fill"></i>
+              </div>
+              <div>
+                <h5>В 5× быстрее</h5>
+                <p>Карточка товара в среднем готова за 24 часа, а не за неделю. ИИ моментально генерирует десятки вариантов фото, описаний и инфографики — мы выбираем лучшее.</p>
+              </div>
+            </div>
+            <div class="pf-ai-benefit" data-aos="fade-right" data-aos-delay="200">
+              <div class="pf-ai-benefit-icon">
+                <i class="bi bi-piggy-bank-fill"></i>
+              </div>
+              <div>
+                <h5>До 60% дешевле</h5>
+                <p>Автоматизация снижает стоимость производства, но не качество. Вы получаете студийный результат по цене обычной съёмки с телефона. Экономия — заметная, качество — нет.</p>
+              </div>
+            </div>
+            <div class="pf-ai-benefit" data-aos="fade-right" data-aos-delay="300">
+              <div class="pf-ai-benefit-icon">
+                <i class="bi bi-shield-check-fill"></i>
+              </div>
+              <div>
+                <h5>Ручная модерация — обязательна</h5>
+                <p>Каждое фото, каждый текст и каждый слайд инфографики проверяет живой специалист. Никакой «роботизированной» некачественщины — только то, что прошло человеческий контроль.</p>
+              </div>
+            </div>
+            <div class="pf-ai-benefit" data-aos="fade-right" data-aos-delay="400">
+              <div class="pf-ai-benefit-icon">
+                <i class="bi bi-graph-up-arrow"></i>
+              </div>
+              <div>
+                <h5>Результат — как у топовых студий</h5>
+                <p>Мы используем те же модели ИИ, что и крупнейшие мировые маркетплейсы — Amazon, ASOS, Zalando. Адаптировали под алгоритмы WB и требования российской аудитории.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Stats -->
+        <div class="col-lg-5">
+          <div class="pf-ai-stats-grid">
+            <div class="pf-ai-stat-card" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pf-ai-stat-icon"><i class="bi bi-images"></i></div>
+              <span class="pf-ai-stat-num">5 000+</span>
+              <span class="pf-ai-stat-label">карточек создано с ИИ</span>
+            </div>
+            <div class="pf-ai-stat-card" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pf-ai-stat-icon"><i class="bi bi-clock-history"></i></div>
+              <span class="pf-ai-stat-num">24 ч</span>
+              <span class="pf-ai-stat-label">среднее время готовности</span>
+            </div>
+            <div class="pf-ai-stat-card" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pf-ai-stat-icon"><i class="bi bi-percent"></i></div>
+              <span class="pf-ai-stat-num">−60%</span>
+              <span class="pf-ai-stat-label">к стоимости vs студия</span>
+            </div>
+            <div class="pf-ai-stat-card" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pf-ai-stat-icon"><i class="bi bi-person-check-fill"></i></div>
+              <span class="pf-ai-stat-num">100%</span>
+              <span class="pf-ai-stat-label">ручная модерация</span>
+            </div>
+          </div>
+
+          <div class="pf-ai-tools mt-4" data-aos="fade-up" data-aos-delay="300">
+            <p class="pf-ai-tools-label">Инструменты которые мы используем:</p>
+            <div class="pf-ai-tools-list">
+              <span class="pf-tool-badge"><i class="bi bi-star-fill"></i> Midjourney</span>
+              <span class="pf-tool-badge"><i class="bi bi-star-fill"></i> Stable Diffusion</span>
+              <span class="pf-tool-badge"><i class="bi bi-star-fill"></i> GPT-4o</span>
+              <span class="pf-tool-badge"><i class="bi bi-star-fill"></i> Adobe Firefly</span>
+              <span class="pf-tool-badge"><i class="bi bi-star-fill"></i> Remove.bg AI</span>
+              <span class="pf-tool-badge"><i class="bi bi-star-fill"></i> Runway ML</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PORTFOLIO ITEMS ===================== -->
+<section class="section-padding" id="portfolio-items">
+  <div class="container">
+
+    <div class="section-header text-center mb-5" data-aos="fade-up">
+      <span class="section-tag">Примеры работ</span>
+      <h2 class="section-title">До и после: полная трансформация</h2>
+      <p class="section-subtitle">Одно фото «до» → пять профессиональных слайдов карточки товара</p>
+    </div>
+
+    <!-- ===== PRODUCT 1: Bottle ===== -->
+    <div class="pf-product-block" data-aos="fade-up">
+      <div class="pf-product-header">
+        <div class="pf-product-meta">
+          <span class="pf-product-tag">Спорт и фитнес</span>
+          <h3>Спортивная бутылка для воды</h3>
+          <p>SEO-оптимизация, дизайн инфографики, съёмка с моделями, lifestyle фото</p>
+        </div>
+        <div class="pf-product-result-badge">
+          <i class="bi bi-arrow-up-right-circle-fill"></i>
+          <span>+482% продаж</span>
+        </div>
+      </div>
+
+      <div class="pf-product-grid">
+
+        <!-- BEFORE -->
+        <div class="pf-before-col">
+          <div class="pf-before-card">
+            <div class="pf-before-label">
+              <i class="bi bi-x-circle-fill me-1"></i>ДО
+            </div>
+            <div class="pf-img-wrap pf-img-before" data-lightbox="true"
+                 data-src="img/bottle-before.jpg"
+                 data-caption="ДО: Исходное фото продавца — плохое освещение, нет брендинга, любительская съёмка">
+              <img src="img/bottle-before.jpg" alt="Бутылка ДО" loading="lazy" />
+              <div class="pf-img-overlay">
+                <i class="bi bi-zoom-in"></i>
+              </div>
+            </div>
+            <div class="pf-before-issues">
+              <div class="pf-issue"><i class="bi bi-x-circle text-danger"></i> Плохое освещение</div>
+              <div class="pf-issue"><i class="bi bi-x-circle text-danger"></i> Нет инфографики</div>
+              <div class="pf-issue"><i class="bi bi-x-circle text-danger"></i> Нет брендинга</div>
+              <div class="pf-issue"><i class="bi bi-x-circle text-danger"></i> Мало информации</div>
+              <div class="pf-issue"><i class="bi bi-x-circle text-danger"></i> Непрофессионально</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ARROW -->
+        <div class="pf-arrow-col">
+          <div class="pf-transform-arrow">
+            <div class="pf-arrow-inner">
+              <i class="bi bi-arrow-right"></i>
+              <span>Трансформация</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- AFTER: 5 slides -->
+        <div class="pf-after-col">
+          <div class="pf-after-label">
+            <i class="bi bi-check-circle-fill me-1"></i>ПОСЛЕ — 5 слайдов карточки
+          </div>
+          <div class="pf-after-grid">
+
+            <div class="pf-after-item pf-after-item--main"
+                 data-lightbox="true"
+                 data-src="img/bottle-after-1.jpg"
+                 data-caption="Слайд 1: Главное фото карточки с инфографикой на WB">
+              <img src="img/bottle-after-1.jpg" alt="Слайд 1 — главная карточка" loading="lazy" />
+              <div class="pf-img-overlay"><i class="bi bi-zoom-in"></i></div>
+              <div class="pf-slide-num">1</div>
+              <div class="pf-slide-label">Главное фото</div>
+            </div>
+
+            <div class="pf-after-item"
+                 data-lightbox="true"
+                 data-src="img/bottle-after-2.jpg"
+                 data-caption="Слайд 2: Модель в зале — демонстрация товара в использовании">
+              <img src="img/bottle-after-2.jpg" alt="Слайд 2 — модель в зале" loading="lazy" />
+              <div class="pf-img-overlay"><i class="bi bi-zoom-in"></i></div>
+              <div class="pf-slide-num">2</div>
+              <div class="pf-slide-label">Модель / зал</div>
+            </div>
+
+            <div class="pf-after-item"
+                 data-lightbox="true"
+                 data-src="img/bottle-after-3.jpg"
+                 data-caption="Слайд 3: Lifestyle — бег на улице, товар в действии">
+              <img src="img/bottle-after-3.jpg" alt="Слайд 3 — бег на улице" loading="lazy" />
+              <div class="pf-img-overlay"><i class="bi bi-zoom-in"></i></div>
+              <div class="pf-slide-num">3</div>
+              <div class="pf-slide-label">Lifestyle / улица</div>
+            </div>
+
+            <div class="pf-after-item"
+                 data-lightbox="true"
+                 data-src="img/bottle-after-4.jpg"
+                 data-caption="Слайд 4: Инфографика с характеристиками и преимуществами товара">
+              <img src="img/bottle-after-4.jpg" alt="Слайд 4 — инфографика" loading="lazy" />
+              <div class="pf-img-overlay"><i class="bi bi-zoom-in"></i></div>
+              <div class="pf-slide-num">4</div>
+              <div class="pf-slide-label">Инфографика</div>
+            </div>
+
+            <div class="pf-after-item"
+                 data-lightbox="true"
+                 data-src="img/bottle-after-5.jpg"
+                 data-caption="Слайд 5: Flat lay — стильная раскладка с аксессуарами">
+              <img src="img/bottle-after-5.jpg" alt="Слайд 5 — flat lay" loading="lazy" />
+              <div class="pf-img-overlay"><i class="bi bi-zoom-in"></i></div>
+              <div class="pf-slide-num">5</div>
+              <div class="pf-slide-label">Flat lay</div>
+            </div>
+
+          </div>
+          <div class="pf-after-pros mt-3">
+            <div class="pf-pro"><i class="bi bi-check-circle-fill text-wb-accent"></i> Профессиональный фон и свет</div>
+            <div class="pf-pro"><i class="bi bi-check-circle-fill text-wb-accent"></i> Инфографика с 6 фичами</div>
+            <div class="pf-pro"><i class="bi bi-check-circle-fill text-wb-accent"></i> 2 модели, lifestyle, flat lay</div>
+            <div class="pf-pro"><i class="bi bi-check-circle-fill text-wb-accent"></i> WB-оптимизированный формат</div>
+            <div class="pf-pro"><i class="bi bi-check-circle-fill text-wb-accent"></i> Готово за 24 часа</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="pf-divider" data-aos="fade-up"></div>
+
+    <!-- ===== PRODUCT 2: Bag ===== -->
+    <div class="pf-product-block" data-aos="fade-up">
+      <div class="pf-product-header">
+        <div class="pf-product-meta">
+          <span class="pf-product-tag">Аксессуары / Мода</span>
+          <h3>Женская кожаная сумка через плечо</h3>
+          <p>Редизайн карточки, профессиональная студийная съёмка, инфографика, съёмка с моделями</p>
+        </div>
+        <div class="pf-product-result-badge">
+          <i class="bi bi-arrow-up-right-circle-fill"></i>
+          <span>+340% выручки</span>
+        </div>
+      </div>
+
+      <div class="pf-product-grid">
+
+        <!-- BEFORE -->
+        <div class="pf-before-col">
+          <div class="pf-before-card">
+            <div class="pf-before-label">
+              <i class="bi bi-x-circle-fill me-1"></i>ДО
+            </div>
+            <div class="pf-img-wrap pf-img-before" data-lightbox="true"
+                 data-src="img/bag-before.jpg"
+                 data-caption="ДО: Исходное фото — сумка на мятой ткани, фото с телефона, без обработки">
+              <img src="img/bag-before.jpg" alt="Сумка ДО" loading="lazy" />
+              <div class="pf-img-overlay"><i class="bi bi-zoom-in"></i></div>
+            </div>
+            <div class="pf-before-issues">
+              <div class="pf-issue"><i class="bi bi-x-circle text-danger"></i> Мятый фон</div>
+              <div class="pf-issue"><i class="bi bi-x-circle text-danger"></i> Фото с телефона</div>
+              <div class="pf-issue"><i class="bi bi-x-circle text-danger"></i> Нет модели</div>
+              <div class="pf-issue"><i class="bi bi-x-circle text-danger"></i> Нет преимуществ</div>
+              <div class="pf-issue"><i class="bi bi-x-circle text-danger"></i> Место 1450 в поиске</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ARROW -->
+        <div class="pf-arrow-col">
+          <div class="pf-transform-arrow">
+            <div class="pf-arrow-inner">
+              <i class="bi bi-arrow-right"></i>
+              <span>Трансформация</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- AFTER: 5 slides -->
+        <div class="pf-after-col">
+          <div class="pf-after-label">
+            <i class="bi bi-check-circle-fill me-1"></i>ПОСЛЕ — 5 слайдов карточки
+          </div>
+          <div class="pf-after-grid">
+
+            <div class="pf-after-item pf-after-item--main"
+                 data-lightbox="true"
+                 data-src="img/bag-after-1.jpg"
+                 data-caption="Слайд 1: Главное фото карточки на фиолетовом фоне с инфографикой">
+              <img src="img/bag-after-1.jpg" alt="Слайд 1 — главная карточка" loading="lazy" />
+              <div class="pf-img-overlay"><i class="bi bi-zoom-in"></i></div>
+              <div class="pf-slide-num">1</div>
+              <div class="pf-slide-label">Главное фото</div>
+            </div>
+
+            <div class="pf-after-item"
+                 data-lightbox="true"
+                 data-src="img/bag-after-2.jpg"
+                 data-caption="Слайд 2: Модель на улице — образ жизни с сумкой">
+              <img src="img/bag-after-2.jpg" alt="Слайд 2 — модель на улице" loading="lazy" />
+              <div class="pf-img-overlay"><i class="bi bi-zoom-in"></i></div>
+              <div class="pf-slide-num">2</div>
+              <div class="pf-slide-label">Модель / улица</div>
+            </div>
+
+            <div class="pf-after-item"
+                 data-lightbox="true"
+                 data-src="img/bag-after-3.jpg"
+                 data-caption="Слайд 3: Модель в бутике — премиальная атмосфера">
+              <img src="img/bag-after-3.jpg" alt="Слайд 3 — бутик" loading="lazy" />
+              <div class="pf-img-overlay"><i class="bi bi-zoom-in"></i></div>
+              <div class="pf-slide-num">3</div>
+              <div class="pf-slide-label">Модель / бутик</div>
+            </div>
+
+            <div class="pf-after-item"
+                 data-lightbox="true"
+                 data-src="img/bag-after-4.jpg"
+                 data-caption="Слайд 4: Инфографика — все характеристики сумки с иконками">
+              <img src="img/bag-after-4.jpg" alt="Слайд 4 — инфографика" loading="lazy" />
+              <div class="pf-img-overlay"><i class="bi bi-zoom-in"></i></div>
+              <div class="pf-slide-num">4</div>
+              <div class="pf-slide-label">Инфографика</div>
+            </div>
+
+            <div class="pf-after-item"
+                 data-lightbox="true"
+                 data-src="img/bag-after-5.jpg"
+                 data-caption="Слайд 5: Flat lay на мраморе — роскошная стилизованная раскладка">
+              <img src="img/bag-after-5.jpg" alt="Слайд 5 — flat lay мрамор" loading="lazy" />
+              <div class="pf-img-overlay"><i class="bi bi-zoom-in"></i></div>
+              <div class="pf-slide-num">5</div>
+              <div class="pf-slide-label">Flat lay</div>
+            </div>
+
+          </div>
+          <div class="pf-after-pros mt-3">
+            <div class="pf-pro"><i class="bi bi-check-circle-fill text-wb-accent"></i> Студийный белый и тёмный фон</div>
+            <div class="pf-pro"><i class="bi bi-check-circle-fill text-wb-accent"></i> Инфографика 6 характеристик</div>
+            <div class="pf-pro"><i class="bi bi-check-circle-fill text-wb-accent"></i> 2 модели, luxury flat lay</div>
+            <div class="pf-pro"><i class="bi bi-check-circle-fill text-wb-accent"></i> ТОП-1 категории за 4 мес</div>
+            <div class="pf-pro"><i class="bi bi-check-circle-fill text-wb-accent"></i> Выручка 1.2 млн ₽/мес</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ===================== CTA SECTION ===================== -->
+
+    <!-- Divider -->
+    <div class="pf-divider" data-aos="fade-up" style="margin: 0 0 60px;"></div>
+
+    <!-- ===== PRODUCT 3: T-Shirt Renato Shavali ===== -->
+    <div class="pf-product-block" data-aos="fade-up">
+      <div class="pf-product-header">
+        <div class="pf-product-meta">
+          <span class="pf-product-tag">Мужская одежда</span>
+          <h3>Футболка мужская оверсайз с принтом — Renato Shavali</h3>
+          <p>Реальный кейс: полная переупаковка карточки WB артикул 868648138 — 5 профессиональных слайдов из данных товара</p>
+        </div>
+        <div class="pf-product-result-badge">
+          <i class="bi bi-star-fill"></i>
+          <span>4.9★ · 113 отзывов</span>
+        </div>
+      </div>
+
+      <!-- AI Data badge -->
+      <div class="pf-ai-data-note mb-4" data-aos="fade-up">
+        <i class="bi bi-cpu-fill me-2"></i>
+        <strong>Создано на основе реальной карточки WB:</strong> 100% хлопок · Оверсайз крой · Цена 702₽ (скидка с 1 633₽) · Размеры S–XL · Рост модели 182 см · 89% положительных отзывов
+      </div>
+
+      <div class="pf-after-standalone" data-aos="fade-up" data-aos-delay="100">
+        <div class="pf-after-label mb-3">
+          <i class="bi bi-check-circle-fill me-1"></i>5 профессиональных слайдов карточки — на основе характеристик товара
+        </div>
+        <div class="pf-tshirt-grid">
+
+          <div class="pf-after-item pf-after-item--main"
+               data-lightbox="true"
+               data-src="img/tshirt-card-1.jpg"
+               data-caption="Слайд 1: Главная карточка — товар на фоне WB, ключевые характеристики, цена, рейтинг">
+            <img src="img/tshirt-card-1.jpg" alt="Главная карточка" loading="lazy" />
+            <div class="pf-img-overlay"><i class="bi bi-zoom-in"></i></div>
+            <div class="pf-slide-num">1</div>
+            <div class="pf-slide-label">Главное фото</div>
+          </div>
+
+          <div class="pf-after-item"
+               data-lightbox="true"
+               data-src="img/tshirt-card-2.jpg"
+               data-caption="Слайд 2: Модель на улице — демонстрация оверсайз посадки">
+            <img src="img/tshirt-card-2.jpg" alt="Модель на улице" loading="lazy" />
+            <div class="pf-img-overlay"><i class="bi bi-zoom-in"></i></div>
+            <div class="pf-slide-num">2</div>
+            <div class="pf-slide-label">Модель / улица</div>
+          </div>
+
+          <div class="pf-after-item"
+               data-lightbox="true"
+               data-src="img/tshirt-card-3.jpg"
+               data-caption="Слайд 3: Качество ткани — 100% хлопок, мягкость, дышащий материал">
+            <img src="img/tshirt-card-3.jpg" alt="Качество ткани" loading="lazy" />
+            <div class="pf-img-overlay"><i class="bi bi-zoom-in"></i></div>
+            <div class="pf-slide-num">3</div>
+            <div class="pf-slide-label">Качество ткани</div>
+          </div>
+
+          <div class="pf-after-item"
+               data-lightbox="true"
+               data-src="img/tshirt-card-4.jpg"
+               data-caption="Слайд 4: Таблица размеров S–XL с реальными замерами, уход за изделием">
+            <img src="img/tshirt-card-4.jpg" alt="Таблица размеров" loading="lazy" />
+            <div class="pf-img-overlay"><i class="bi bi-zoom-in"></i></div>
+            <div class="pf-slide-num">4</div>
+            <div class="pf-slide-label">Размерная сетка</div>
+          </div>
+
+          <div class="pf-after-item"
+               data-lightbox="true"
+               data-src="img/tshirt-card-5.jpg"
+               data-caption="Слайд 5: Lifestyle — 89% покупателей довольны, рейтинг 4.9★ из 5">
+            <img src="img/tshirt-card-5.jpg" alt="Lifestyle — доверие покупателей" loading="lazy" />
+            <div class="pf-img-overlay"><i class="bi bi-zoom-in"></i></div>
+            <div class="pf-slide-num">5</div>
+            <div class="pf-slide-label">Lifestyle / отзывы</div>
+          </div>
+
+        </div>
+
+        <div class="pf-after-pros mt-3">
+          <div class="pf-pro"><i class="bi bi-check-circle-fill text-wb-accent"></i> Данные взяты с реальной WB-карточки</div>
+          <div class="pf-pro"><i class="bi bi-check-circle-fill text-wb-accent"></i> Цена, рейтинг, состав — из карточки товара</div>
+          <div class="pf-pro"><i class="bi bi-check-circle-fill text-wb-accent"></i> Таблица размеров по стандарту WB</div>
+          <div class="pf-pro"><i class="bi bi-check-circle-fill text-wb-accent"></i> 5 слайдов готово за 24 часа</div>
+          <div class="pf-pro"><i class="bi bi-check-circle-fill text-wb-accent"></i> Ручная модерация каждого слайда</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="pf-cta-section">
+  <div class="container">
+    <div class="pf-cta-card" data-aos="zoom-in">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-8">
+          <h2 class="text-white">Хотите такую же трансформацию<br />для своих товаров?</h2>
+          <p class="text-white-50 mt-3">Пришлите нам ваши текущие карточки — мы проведём бесплатный аудит и покажем, как будут выглядеть результаты.</p>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a href="index.html#contact" class="btn btn-wb-primary btn-lg px-5">
+              Получить бесплатный аудит
+              <i class="bi bi-arrow-right ms-2"></i>
+            </a>
+            <a href="index.html#pricing" class="btn btn-wb-outline btn-lg px-4">
+              Посмотреть тарифы
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center">
+          <div class="pf-cta-stats">
+            <div class="pf-cta-stat">
+              <span class="pf-cta-num">24 ч</span>
+              <span>первый результат</span>
+            </div>
+            <div class="pf-cta-stat">
+              <span class="pf-cta-num">0 ₽</span>
+              <span>стоимость аудита</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="container">
+    <div class="row g-5 py-5">
+      <div class="col-lg-4">
+        <a class="d-flex align-items-center gap-2 text-decoration-none mb-4" href="index.html">
+          <div class="brand-icon"><i class="bi bi-bag-heart-fill"></i></div>
+          <span class="brand-text text-white">WB<span class="brand-accent">Expert</span></span>
+        </a>
+        <p class="text-white-50">Профессиональное агентство по продвижению товаров на Wildberries. Работаем с результатом с 2019 года.</p>
+        <div class="footer-socials mt-4">
+          <a href="#" class="social-btn"><i class="bi bi-telegram"></i></a>
+          <a href="#" class="social-btn"><i class="bi bi-vk"></i></a>
+          <a href="#" class="social-btn"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-2">
+        <h6 class="footer-heading">Услуги</h6>
+        <ul class="footer-links">
+          <li><a href="index.html#services">SEO карточек</a></li>
+          <li><a href="index.html#services">Инфографика</a></li>
+          <li><a href="index.html#services">Съёмка</a></li>
+          <li><a href="index.html#services">WB Реклама</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-lg-2">
+        <h6 class="footer-heading">Компания</h6>
+        <ul class="footer-links">
+          <li><a href="index.html#about">О нас</a></li>
+          <li><a href="portfolio.html">Портфолио</a></li>
+          <li><a href="index.html#cases">Кейсы</a></li>
+          <li><a href="index.html#pricing">Цены</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4">
+        <h6 class="footer-heading">Связаться</h6>
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <i class="bi bi-telegram"></i>
+            <div><span>Telegram</span><a href="https://t.me/wbexpert">@wbexpert</a></div>
+          </div>
+          <div class="contact-info-item">
+            <i class="bi bi-envelope-fill"></i>
+            <div><span>Email</span><a href="mailto:info@wbexpert.ru">info@wbexpert.ru</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="row align-items-center g-3">
+        <div class="col-md-6">
+          <p class="text-white-50 small mb-0">© 2024 WBExpert. Все права защищены.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <a href="#" class="text-white-50 small me-4 text-decoration-none">Политика конфиденциальности</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-to-top" id="backToTop"><i class="bi bi-arrow-up"></i></button>
+
+<!-- ===================== LIGHTBOX ===================== -->
+<div class="pf-lightbox" id="pfLightbox" role="dialog" aria-modal="true" aria-label="Просмотр изображения">
+  <div class="pf-lb-backdrop" id="pfLbBackdrop"></div>
+  <div class="pf-lb-container">
+    <button class="pf-lb-close" id="pfLbClose" aria-label="Закрыть">
+      <i class="bi bi-x-lg"></i>
+    </button>
+    <button class="pf-lb-nav pf-lb-prev" id="pfLbPrev" aria-label="Предыдущее">
+      <i class="bi bi-chevron-left"></i>
+    </button>
+    <div class="pf-lb-img-wrap">
+      <img src="" alt="" id="pfLbImg" />
+      <div class="pf-lb-loader" id="pfLbLoader">
+        <div class="spinner-border text-light"></div>
+      </div>
+    </div>
+    <button class="pf-lb-nav pf-lb-next" id="pfLbNext" aria-label="Следующее">
+      <i class="bi bi-chevron-right"></i>
+    </button>
+    <div class="pf-lb-caption" id="pfLbCaption"></div>
+    <div class="pf-lb-counter" id="pfLbCounter"></div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<!-- Portfolio JS -->
+<script src="js/portfolio.js"></script>
+</body>
+</html>
